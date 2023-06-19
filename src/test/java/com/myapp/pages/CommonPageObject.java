@@ -22,6 +22,7 @@ public class CommonPageObject {   //totaly imagination  bothing is real in here 
     @FindBy(xpath = "//div[@role='alert']")
     public WebElement errorMessage_incorrectEmailAndPass;
 
-
+    @FindBy(xpath = "//button[@type='loginout']")
+    public WebElement logOutButton;
 
 }
