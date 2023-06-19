@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!-- linking listener capability for this class-->
+    <listeners>
+        <listener class-name="com.myapp.utilities.ListenersUtil"></listener>
+    </listeners>
+    <!-- test case-->
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/mdurm/IdeaProjects/mytestNGporject/src/test/java/com/myapp/tests/listeners/ListenersTests4.java">
+        <classes>
+            <class name="com.myapp.tests.listeners.ListenersTests4">
+                <methods>
+                    <include name="test4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

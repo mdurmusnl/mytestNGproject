@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/mdurm/IdeaProjects/mytestNGporject/src/test/java/com/myapp/tests/smoketestsuite/logintests(failed)">
+    <classes>
+      <class name="com.myapp.tests.smoketestsuite.logintests.ecelautomation.Day21_ExcelLogin">
+        <methods>
+          <include name="customerLoginTest"/>
+        </methods>
+      </class> <!-- com.myapp.tests.smoketestsuite.logintests.ecelautomation.Day21_ExcelLogin -->
+      <class name="com.myapp.tests.smoketestsuite.logintests.Day20_US413123_BadCredentials">
+        <methods>
+          <include name="US413123_Bad_Credentials"/>
+        </methods>
+      </class> <!-- com.myapp.tests.smoketestsuite.logintests.Day20_US413123_BadCredentials -->
+    </classes>
+  </test> <!-- C:/Users/mdurm/IdeaProjects/mytestNGporject/src/test/java/com/myapp/tests/smoketestsuite/logintests(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

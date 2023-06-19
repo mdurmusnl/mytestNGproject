@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http:/   /testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/mdurm/IdeaProjects/mytestNGporject/src/test/java/com/myapp/tests/topics/Day19_POM_Login.java">
+        <classes>
+            <class name="com.myapp.tests.topics.Day19_POM_Login">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
